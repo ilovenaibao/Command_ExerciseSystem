@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Evaluation</string>
+    <string name="app_name_1">Exercises</string>
+    <string name="ProgressDialog_content">Searching...</string>
+    <string name="Notfound">Not found!</string>
+    <string name="Draft_note">Draft &amp; Note</string>
+    <string name="BaseTest">BaseTest</string>
+    <string name="resolving">Analyse</string>
+    <string name="answer">Answer</string>
+    <string name="menu_Instruction">Download</string>
+    <string name="menu_DownloadContent">Log-in our Website to download or update on-line service?</string>
+    <string name="menu_ok">Ok</string>
+    <string name="menu_cancel">Cancel</string>
+
+    <!-- By Taylor -->
+    <string name="menu_page_move">Move</string>
+    <string name="menu_page_paint">Paint</string>
+    <string name="menu_pen_set">Pen Set</string>
+    <string name="menu_eraser_set">eraser set</string>
+    <string name="eraseSet">erase setting</string>
+    <string name="exit_ok">Yes</string>
+    <string name="exit_cancel">No</string>
+    <string name="exit_title">Quit?</string>
+    <string name="writepaper_in">Answerpaper</string>
+    <string name="save_data_loading">Saving...</string>
+    <string name="other_graphic_list_loading">Searching...</string>
+    <!-- 答題紙是否啟動彈出字串 -->
+    <string name="answer_paper_started">Answer paper started.</string>
+    <item name="pic_name" type="id"></item>
+    <!-- End -->
+
+</resources>

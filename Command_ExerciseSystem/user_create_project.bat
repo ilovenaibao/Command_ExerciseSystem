@@ -1,0 +1,1 @@
+@call PROJECT_INFO_SET.bat create_project

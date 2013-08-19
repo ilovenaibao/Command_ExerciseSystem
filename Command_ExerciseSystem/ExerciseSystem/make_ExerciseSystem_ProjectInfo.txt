@@ -1,0 +1,21 @@
+---------------------- 
+Total infomation:    * 
+---------------------- 
+*************Project Info*************************************** 
+Project path   : G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem 
+Project Name   : ExerciseSystem 
+Package Name   : com.besta.app.exerciseengine 
+add-ons        : 39 
+keystore       : ExerciseSystem.keystore 
+keystore pass  : taylorzero 
+keystore main pass: taylorzero 
+Validity Days  : 20000 
+*************Apk's Info***************************************** 
+apk's Name     : .\bin\ExerciseSystem.apk 
+apk's Path     : G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\.\bin\ExerciseSystem.apk 
+*************Developer Info************************************* 
+Developer Name : Gu 
+Company Name   : "TaylorGu_Co." 
+Organization   : home 
+Country ID     : CN 
+*************END************************************************ 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#00000000" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/score_titlebar">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="得分"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#AA172E00">
+            </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/score_fractionarea"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/h_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_9" >
+            </ImageView>
+          	<ImageView
+          	    android:id="@+id/t_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_9" >
+            </ImageView>
+            <ImageView
+                android:id="@+id/s_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_9" >
+            </ImageView>
+           	<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/no_fen" >
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+          	android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/score_btnarea"
+            android:layout_weight="0">
+            
+	        <Button
+	            android:id="@+id/btn_analysis"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_margin="3dp"
+	            android:layout_alignLeft="@+id/linearLayout1"
+	            android:layout_alignParentBottom="true"
+	            android:background="@drawable/btn_analysis"
+	            android:text="弱点分析"
+	            android:textSize="18dp"
+	   
+	            android:textColor="#AA172E00" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

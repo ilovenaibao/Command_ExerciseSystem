@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="NoTitle" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="PopUpWinTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/corner_dg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="FullHeightDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- By Taylor -->
+    <!-- <style name="Transparent" parent="@android:style/Theme.Holo.Light.NoActionBar"> -->
+    <!-- <item name="android:windowBackground">@color/transparent</item> -->
+    <!-- <item name="android:windowNoTitle">true</item> -->
+    <!-- <item name="android:windowIsTranslucent">true</item> -->
+    <!-- <item name="android:windowAnimationStyle">@style/Animation</item> -->
+    <!-- </style> -->
+
+    <style name="ContentOverlay" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Activity_Trans_Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="PopWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_out</item>
+    </style>
+
+    <style name="Erazer_PopWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/era_popwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/era_popwindow_out</item>
+    </style>
+
+    <style name="Transparent" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="exitSaveDlg">
+        <item name="android:windowBackground">@drawable/chose_morlist</item>
+    </style>
+
+    <style name="ChooseDialogTile" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- <item name="android:background">@drawable/chose_morlist</item> -->
+        <item name="android:windowBackground">@drawable/chose_morlist</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+    </style>
+
+    <style name="ActivityNormalStyle" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- <item name="android:background">@drawable/chose_morlist</item> -->
+        <item name="android:windowBackground">@drawable/dilog_background</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+    </style>
+
+    <style name="ActivityDialogTile" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- <item name="android:background">@drawable/chose_morlist</item> -->
+        <item name="android:windowBackground">@drawable/dilog_background</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+    </style>
+
+    <style name="saveDataLoadingDlg" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- <item name="android:background">@drawable/savedata_morlist</item> -->
+        <item name="android:windowBackground">@drawable/save_data_loading_dlg</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+    </style>
+
+    <!-- <style name="TitleStyle" parent="@android:style/DialogWindowTitle"> -->
+    <style name="TitleStyle" parent="android:Theme">
+        <item name="android:textAppearance">@style/TitleText</item>
+    </style>
+
+    <style name="TitleText" parent="@android:style/TextAppearance.DialogWindowTitle">
+
+        <!-- 设置Dialog标题栏文字颜色 -->
+        <item name="android:textColor">#000000A0</item>
+    </style>
+    <!-- End -->
+
+</resources>

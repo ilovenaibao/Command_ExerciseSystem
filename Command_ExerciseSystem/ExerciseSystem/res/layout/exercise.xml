@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/exbackground"
+    >
+
+        <Button 
+            android:id="@+id/btn_menu_select"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+			android:background="@drawable/btn_menu_select"
+			android:visibility="gone">
+        </Button>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+	   <LinearLayout	
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:paddingRight="20dp"
+	        android:paddingTop="10dp"
+	        android:background="@drawable/ex_titlebar"
+	        android:gravity="right|center_vertical"
+	        android:orientation="horizontal">
+	        
+	        <ImageButton 
+	            android:id="@+id/btn_calculator"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_calculator"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_hycd"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_hycd"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_njgj"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_njgj"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_scb"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_scb"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_scbsave"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_scbsave"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_spjf"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_spjf"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_tbjf"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_tbjf"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_tblx"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_tblx"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_xhgf"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_xhgf"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_xxbj"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_xxbj"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_xxbjdetail"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_xxbjdetail"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_yearstable"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_yearstable"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_yhcd"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_yhcd"
+	            android:visibility="gone"/>
+			<ImageButton 
+	            android:id="@+id/btn_yszqb"
+	            android:layout_height="35dp"
+	            android:layout_width="35dp"
+	            android:background="@drawable/btn_yszqb"
+	            android:visibility="gone"/>
+			<Button 
+	            android:id="@+id/btn_submit"
+	            android:layout_height="35dp"
+	            android:layout_width="60dp"
+	            android:text="提交"
+	            android:textColor="#F16101"
+	            android:background="@drawable/btn_submit"
+	            android:visibility="gone"/>
+			<Button 
+	            android:id="@+id/btn_score"
+	            android:layout_height="35dp"
+	            android:layout_width="60dp"
+	            android:text="打分"
+	            android:textColor="#F16101"
+	            android:background="@drawable/btn_submit"
+	            android:visibility="gone"/>
+<!-- 			<Button  -->
+<!-- 	            android:id="@+id/btn_Score" -->
+<!-- 	            android:layout_height="60dp" -->
+<!-- 	            android:layout_width="60dp" -->
+<!-- 	            android:background="@drawable/btn_Score" -->
+<!-- 	            android:visibility="gone"/> -->
+ 			
+	        
+	   </LinearLayout>
+	    <AbsoluteLayout	android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0"
+	        android:background="@drawable/ex_area">
+	    <LinearLayout android:orientation="vertical" 
+	        android:id="@+id/main_info"
+	        android:visibility="gone" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+	       <WebView
+			android:id="@+id/webyytk"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"/>
+	    </LinearLayout>
+	    <LinearLayout android:orientation="vertical" 
+	        android:id="@+id/main_Loading"        
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+	        <include android:visibility="visible" 
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" 
+	            layout="@layout/fullscreen_loading_indicator" />
+	    </LinearLayout>
+	    
+	    </AbsoluteLayout>
+    </LinearLayout>
+</LinearLayout>

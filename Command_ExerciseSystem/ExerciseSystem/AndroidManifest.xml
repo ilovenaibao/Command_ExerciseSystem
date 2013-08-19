@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.besta.app.exerciseengine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="besta.permission.INTERNAL_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.besta.app.exerciseengine.ExerciseMain"
+            android:configChanges="keyboardHidden|orientation"
+            android:excludeFromRecents="true" >
+            <intent-filter>
+                <action android:name="com.besta.app.exerciseengine.GETQUES" />
+                <action android:name="com.besta.app.exerciseengine.ACTION_READ" />
+                <action android:name="com.besta.app.exerciseengine.ACTION_EXERCISE" />
+                <action android:name="com.besta.app.exerciseengine.ACTION_TEST" />
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+				
+				<action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+                <category android:name="android.iCntent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PopupList"
+            android:theme="@style/PopUpWinTheme" >
+        </activity>
+        <!-- <uses-library android:name="com.besta.content.data.decoder" /> -->
+        <!-- <uses-library android:name="com.besta.util.config" /> -->
+        <!-- <uses-library android:name="com.besta.util.titlebar" /> -->
+        <!-- <uses-library android:name="com.besta.util.voicecorrect"/> -->
+        <!-- <uses-library android:name="com.besta.ime.imectrl" /> -->
+        <!-- <uses-library android:name="com.besta.view.dictctrl" /> -->
+        <!-- <uses-library android:name="com.besta.view.crosssearchwin" /> -->
+        <!-- <uses-library android:name="com.besta.content.romheadread" /> -->
+        <!-- <uses-library android:name="com.besta.media.audio.tts.aidl" /> -->
+        <!-- <uses-library android:name="com.besta.content.data.decoder" /> -->
+        <!-- <uses-library android:name="com.besta.media.audio.decoder.mp3" /> -->
+        <!-- <uses-library android:name="com.besta.media.audio.decoder.voxware" /> -->
+        <!-- <uses-library android:name="com.besta.media.audio.play" /> -->
+        <!-- <uses-library android:name="com.besta.media.audio.realvoice" /> -->
+        <!-- <uses-library android:name="com.besta.view.strokeorder"/> -->
+        <!-- <uses-library android:name="com.besta.misc"/> -->
+        <!-- <uses-library android:name="com.besta.util.sentencesearchorder"/> -->
+
+
+        <!-- By Taylor -->
+        <activity
+            android:name="com.besta.app.answerpaper.AnswerPaperActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/ActivityNormalStyle" >
+            <intent-filter>
+                <action android:name="com.besta.app.answerpaper.ANSWERNORMAL" />
+                <action android:name="com.besta.app.answerpaper.prtscr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.besta.app.answerpaper.AnswerPaperDialogActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/ActivityDialogTile" >
+            <intent-filter>
+                <action android:name="com.besta.app.answerpaper.ANSWERDLG" />
+                <action android:name="com.besta.app.answerpaper.prtscr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.besta.app.answerpaper.TestPaperDialogActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/ActivityDialogTile" >
+            <intent-filter>
+                <action android:name="com.besta.app.answerpaper.TESTDLG" />
+                <action android:name="com.besta.app.answerpaper.prtscr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.besta.app.answerpaper.othergraphics.OtherGraphicActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Activity_Trans_Theme" >
+            <intent-filter>
+                <action android:name="com.besta.app.answerpaper.othergraphics.OtherGraphicActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.besta.app.testcallactivity.testFirstActivity"
+            android:label="答題紙"
+            android:theme="@style/MyTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!--<action android:name="android.intent.action.MAIN" />
+				-->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.besta.app.answerpaper.PrtScrActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.besta.app.draw" />
+            </intent-filter>
+        </activity>
+
+        <!-- <uses-library -->
+        <!-- android:name="com.besta.os" -->
+        <!-- android:required="false" /> -->
+
+
+        <!-- End -->
+    </application>
+
+</manifest>

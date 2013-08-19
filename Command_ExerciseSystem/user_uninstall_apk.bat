@@ -1,0 +1,1 @@
+@call PROJECT_INFO_SET.bat uninstall_apk

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">练习题</string>
+    <string name="app_name_1">练习题</string>
+    <string name="ProgressDialog_content">搜索中……</string>
+    <string name="Notfound">查无资料！</string>
+    <string name="Draft_note">演算 &amp; 笔记</string>
+    <string name="BaseTest">基测</string>
+    <string name="resolving">解析</string>
+    <string name="answer">答案</string>
+    <string name="menu_DownloadContent">是否连接本公司网站，下载或更新 On-line service 内容？</string>
+    <string name="menu_Instruction">下载</string>
+    <string name="menu_ok">确定</string>
+    <string name="menu_cancel">取消</string>
+
+    <!-- By Taylor -->
+    <string name="menu_page_move">Move</string>
+    <string name="menu_page_paint">Paint</string>
+    <string name="menu_pen_set">Pen Set</string>
+    <string name="menu_eraser_set">eraser set</string>
+    <string name="eraseSet">橡皮设置</string>
+    <string name="exit_ok">Yes</string>
+    <string name="exit_cancel">No</string>
+    <string name="exit_title">Quit?</string>
+    <string name="writepaper_in">答题纸</string>
+    <string name="save_data_loading">保存中……</string>
+    <string name="other_graphic_list_loading">搜索中...</string>
+    <!-- 答題紙是否啟動彈出字串 -->
+    <string name="answer_paper_started">Answer paper started.</string>
+    <!-- End -->
+
+</resources>

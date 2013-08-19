@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/eraserbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dip"
+        android:layout_marginTop="7dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dip"
+            android:text="@string/eraseSet"
+            android:textColor="@drawable/black"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/erase_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/close_up"
+            android:src="@drawable/close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="6dip" >
+
+        <com.besta.app.toolswindow.MyCanvas
+            android:id="@+id/eCanvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <SeekBar
+            android:id="@+id/eSeekbar"
+            android:layout_width="148.67dip"
+            android:layout_height="18.67dip"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_marginTop="2dip"
+            android:max="45"
+            android:maxHeight="12.67dip"
+            android:minHeight="12.67dip"
+            android:progress="45"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/controlhand"
+            android:thumbOffset="0dip" />
+    </LinearLayout>
+
+</LinearLayout>

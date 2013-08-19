@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<style name="MyTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- 在api level 为11+ 的版本上使用 Theme.Holo 主题 -->
+    </style>
+</resources>

@@ -1,0 +1,1160 @@
+ 
+Remake "R.java" file... 
+ 
+make "*.class" file... 
+warning: [path] bad path element "": no such file or directory
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\kpexercise.java:47: warning: [deprecation] android.text.ClipboardManager in android.text has been deprecated
+import android.text.ClipboardManager;
+                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\AnswerPaperActivity.java:253: warning: [deprecation] FILL_PARENT in android.view.ViewGroup.LayoutParams has been deprecated
+				LinearLayout.LayoutParams.FILL_PARENT,
+				                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:357: warning: [deprecation] FILL_PARENT in android.view.ViewGroup.LayoutParams has been deprecated
+		LinearLayout.LayoutParams.FILL_PARENT,
+		                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:1534: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+			int screen_width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+			                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:1535: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+			int screen_height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+			                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:1211: warning: [cast] redundant cast to android.widget.ImageView
+						((ImageView) imgBt_tool[TOOL_BACK])
+						 ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:3223: warning: [cast] redundant cast to int
+			bundleData.realWidth = (int) (bundleData.realWidth - tmp_x);
+			                       ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\AnswerPaperFun.java:3224: warning: [cast] redundant cast to int
+			bundleData.realHeight = (int) (bundleData.realHeight - tmp_y);
+			                        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:379: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int screen_width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+		                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:380: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+		int screen_height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+		                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:662: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int screen_width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+		                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:663: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+		int screen_height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+		                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:1144: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+		                                  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:1145: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+		int height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+		                                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:454: warning: [cast] redundant cast to float
+				ratio = (float) ((float) tmpHeight / (float) tmpWidth);
+				        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:489: warning: [cast] redundant cast to float
+				ratio = (float) ((float) screen_height / (float) tmpWidth);
+				        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:527: warning: [cast] redundant cast to float
+				ratio = (float) ((float) screen_height / (float) tmpWidth);
+				        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:570: warning: [cast] redundant cast to float
+							ratio2 = (float) ((float) tmp_h / (float) tmpWidth);
+							         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:571: warning: [cast] redundant cast to float
+							int height2 = (int) (matrix_width * (float) (ratio2));
+							                                    ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:700: warning: [cast] redundant cast to float
+			ratio = (float) ((float) tmpHeight / (float) tmpWidth);
+			        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:749: warning: [cast] redundant cast to float
+			ratio = (float) ((float) screen_height / (float) tmpWidth);
+			        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:798: warning: [cast] redundant cast to float
+			ratio = (float) ((float) screen_height / (float) tmpWidth);
+			        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:839: warning: [cast] redundant cast to float
+						ratio2 = (float) ((float) tmp_h / (float) tmpWidth);
+						         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\drawview\DrawView.java:840: warning: [cast] redundant cast to float
+						int height2 = (int) (matrix_width * (float) (ratio2));
+						                                    ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\toolswindow\MyToolsWindow.java:81: warning: [deprecation] BitmapDrawable() in android.graphics.drawable.BitmapDrawable has been deprecated
+			eraseWindow.setBackgroundDrawable(new BitmapDrawable());
+			                                  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\toolswindow\MyToolsWindow.java:254: warning: [deprecation] FILL_PARENT in android.view.ViewGroup.LayoutParams has been deprecated
+				LinearLayout.LayoutParams.FILL_PARENT,
+				                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\toolswindow\MyToolsWindow.java:64: warning: [cast] redundant cast to android.widget.LinearLayout
+			View tmpV = (View) ((LinearLayout) myToolsLayout);
+			                    ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicsMain.java:56: warning: [deprecation] BitmapDrawable() in android.graphics.drawable.BitmapDrawable has been deprecated
+			BitmapDrawable tmpBmpda = new BitmapDrawable();
+			                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\redrawpng\MyPngEncode.java:226: warning: [cast] redundant cast to int
+		int ret = ((int) (0 > buffer[0] ? (buffer[0] + tmpValue) : buffer[0])) << 24
+		           ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\redrawpng\MyPngEncode.java:227: warning: [cast] redundant cast to int
+				| (int) (0 > buffer[1] ? (buffer[1] + tmpValue) : buffer[1]) << 16
+				  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\redrawpng\MyPngEncode.java:228: warning: [cast] redundant cast to int
+				| (int) (0 > buffer[2] ? (buffer[2] + tmpValue) : buffer[2]) << 8
+				  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\redrawpng\MyPngEncode.java:229: warning: [cast] redundant cast to int
+				| (int) (0 > buffer[3] ? (buffer[3] + tmpValue) : buffer[3]);
+				  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\PrtScr.java:52: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int w = display.getWidth();
+		               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\PrtScr.java:53: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+		int h = display.getHeight();
+		               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\floatmyview\MyFloatView.java:46: warning: [deprecation] FILL_PARENT in android.view.ViewGroup.LayoutParams has been deprecated
+				LinearLayout.LayoutParams.FILL_PARENT,
+				                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\mywebview\MyWebViewFun.java:138: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+			int screen_width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+			                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\mywebview\MyWebViewFun.java:139: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+			int screen_height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+			                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\mywebview\MyWebViewFun.java:218: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+			int screen_width = wm.getDefaultDisplay().getWidth();// 屏幕?度
+			                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\mywebview\MyWebViewFun.java:219: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+			int screen_height = wm.getDefaultDisplay().getHeight();// 屏幕高度
+			                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\FileTypeFilter.java:33: warning: [cast] redundant cast to java.lang.String
+			String type = (String) iterator.next();
+			              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\MyPopupWndTool.java:20: warning: [cast] redundant cast to android.view.View
+		loginView[0] = (View) (mainView.findViewById(R.id.in_system_frame));
+		               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\MyPopupWndTool.java:21: warning: [cast] redundant cast to android.view.View
+		loginView[1] = (View) (mainView.findViewById(R.id.in_myDefine_frame));
+		               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\MyPopupWndTool.java:22: warning: [cast] redundant cast to android.view.View
+		loginView[2] = (View) (mainView.findViewById(R.id.in_myCollect_frame));
+		               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:563: warning: [cast] redundant cast to android.view.View
+					loadingBar = (View) findViewById(R.id.loading_bar_in_system);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:564: warning: [cast] redundant cast to android.view.View
+					listLayout = (View) findViewById(R.id.list_in_system);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:572: warning: [cast] redundant cast to android.view.View
+					loadingBar = (View) findViewById(R.id.loading_bar_in_mydefine);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:573: warning: [cast] redundant cast to android.view.View
+					listLayout = (View) findViewById(R.id.list_in_mydefine);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:581: warning: [cast] redundant cast to android.view.View
+					loadingBar = (View) findViewById(R.id.loading_bar_in_collect);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:582: warning: [cast] redundant cast to android.view.View
+					listLayout = (View) findViewById(R.id.list_in_collect);
+					             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:142: warning: [cast] redundant cast to android.view.View
+		imgViw[chosKind] = (View) findViewById(R.id.in_system_frame);
+		                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:146: warning: [cast] redundant cast to android.view.View
+		imgViw[chosKind] = (View) findViewById(R.id.in_myDefine_frame);
+		                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:150: warning: [cast] redundant cast to android.view.View
+		imgViw[chosKind] = (View) findViewById(R.id.in_myCollect_frame);
+		                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:254: warning: [cast] redundant cast to android.view.View
+		View loadingBar = (View) findViewById(R.id.loading_bar_in_system);
+		                  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:255: warning: [cast] redundant cast to android.view.View
+		View listLayout = (View) findViewById(R.id.list_in_system);
+		                  ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:261: warning: [cast] redundant cast to android.view.View
+		loadingBar = (View) findViewById(R.id.loading_bar_in_mydefine);
+		             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:262: warning: [cast] redundant cast to android.view.View
+		listLayout = (View) findViewById(R.id.list_in_mydefine);
+		             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:267: warning: [cast] redundant cast to android.view.View
+		loadingBar = (View) findViewById(R.id.loading_bar_in_collect);
+		             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicActivity.java:268: warning: [cast] redundant cast to android.view.View
+		listLayout = (View) findViewById(R.id.list_in_collect);
+		             ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicFunc.java:14: warning: [cast] redundant cast to android.view.View
+		uiView[OtherGraphicSetting.IN_SYSTEM] = (View) ((Activity) context)
+		                                        ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicFunc.java:17: warning: [cast] redundant cast to android.view.View
+		uiView[OtherGraphicSetting.IN_MYDEFINE] = (View) ((Activity) context)
+		                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othergraphics\OtherGraphicFunc.java:20: warning: [cast] redundant cast to android.view.View
+		uiView[OtherGraphicSetting.IN_COLLECT] = (View) ((Activity) context)
+		                                         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\GetScreenWidthHeight.java:45: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int tmpWidth = wm.getDefaultDisplay().getWidth();// 屏幕?度
+		                                     ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\GetScreenWidthHeight.java:46: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+		int tmpHeight = wm.getDefaultDisplay().getHeight();// 屏幕高度
+		                                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\util.java:229: warning: [deprecation] getWidth() in android.view.Display has been deprecated
+		int width = activity.getWindowManager().getDefaultDisplay().getWidth();
+		                                                           ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\answerpaper\othersclassinfo\util.java:231: warning: [deprecation] getHeight() in android.view.Display has been deprecated
+				.getHeight();
+				^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\ExerciseMain.java:544: warning: [fallthrough] possible fall-through into case
+				case ResultCode.MENU_SELECTOR:
+				^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\quesprocess\BaseQuestion.java:254: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+            params.put("action", URLEncoder.encode("getImage","utf-8") );
+                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\quesprocess\BaseQuestion.java:255: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+            params.put("imageArray", URLEncoder.encode(ImageArray,"utf-8"));
+                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\quesprocess\BaseQuestion.java:300: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+	            params.put("action", URLEncoder.encode("getImage","utf-8") );
+	                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\quesprocess\BaseQuestion.java:301: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+	            params.put("imageId", URLEncoder.encode(ImageID,"utf-8"));
+	                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:154: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("action", URLEncoder.encode("getTitle","utf-8") );
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:155: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("titleId", URLEncoder.encode(QuestionID,"utf-8"));
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:210: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("action", URLEncoder.encode("getExamPaper","utf-8"));
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:211: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("examValue", URLEncoder.encode(ExamValue,"utf-8"));
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:255: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+	            params.put("action", URLEncoder.encode("getImage","utf-8") );
+	                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\GetDataFromHttpGet.java:256: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+	            params.put("imageId", URLEncoder.encode(ImageID,"utf-8"));
+	                      ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\kpexercise.java:1200: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("action", URLEncoder.encode("getTitle","utf-8") );
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\com\besta\app\exerciseengine\kpexercise.java:1201: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type java.util.Map
+                    params.put("titleId", URLEncoder.encode("Mon Jul 23 10:27:09 CST 2012|8464452908998","utf-8"));
+                              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:51: warning: [cast] redundant cast to int
+			result |= Value & (((int) 1 << numBits) - 1);
+			                    ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:81: warning: [cast] redundant cast to int
+			return RG.GetRnd((int) len);
+			                 ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:91: warning: [cast] redundant cast to int
+			return RG.GetRnd(1 + (int) RG.GetRnd(2));
+			                     ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:95: warning: [cast] redundant cast to int
+			return RG.GetRnd(2 + (int) RG.GetRnd(2));
+			                     ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:235: warning: [cast] redundant cast to long
+		long numCommands = (long) (size) * numCommandsForOne;
+		                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\LzmaBench.java:357: warning: [cast] redundant cast to long
+			long benchSize = kBufferSize - (long) progressInfo.InSize;
+			                               ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lz\BinTree.java:143: warning: [cast] redundant cast to int
+			temp ^= ((int)(_bufferBase[cur + 2] & 0xFF) << 8);
+			         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lz\BinTree.java:148: warning: [cast] redundant cast to int
+			hashValue = ((_bufferBase[cur] & 0xFF) ^ ((int)(_bufferBase[cur + 1] & 0xFF) << 8));
+			                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lz\BinTree.java:279: warning: [cast] redundant cast to int
+				temp ^= ((int)(_bufferBase[cur + 2] & 0xFF) << 8);
+				         ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lz\BinTree.java:285: warning: [cast] redundant cast to int
+				hashValue = ((_bufferBase[cur] & 0xFF) ^ ((int)(_bufferBase[cur + 1] & 0xFF) << 8));
+				                                          ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Base.java:59: warning: [cast] redundant cast to int
+		return (int)(kNumLenToPosStates - 1);
+		       ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Encoder.java:426: warning: [cast] redundant cast to int
+				lenRes += _matchFinder.GetMatchLen((int) lenRes - 1,
+				                                   ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Encoder.java:1115: warning: [cast] redundant cast to int
+						.GetIndexByte((int) (0 - _additionalOffset));
+						              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Encoder.java:1120: warning: [cast] redundant cast to int
+							.GetIndexByte((int) (0 - _repDistances[0] - 1 - _additionalOffset));
+							              ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Encoder.java:1170: warning: [cast] redundant cast to int
+						int footerBits = (int) ((posSlot >> 1) - 1);
+						                 ^
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\src\sevenzip\compression\lzma\Encoder.java:1304: warning: [cast] redundant cast to int
+			int footerBits = (int) ((posSlot >> 1) - 1);
+			                 ^
+95 warnings
+ 
+make "*.dex" file... 
+ 
+package "*.ap_" for some resouse file... 
+ 
+make unsigner apk file... 
+Packaging ExerciseSystem_unsigner.apk
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\bin\ExerciseSystem.ap_:
+=> assets/CN/ans_close.pic
+=> assets/CN/ans_open.pic
+=> assets/ES/btn_calculuspaper_default.png
+=> assets/ES/btn_calculuspaper_press.png
+=> assets/ES/btn_favorite_off_default.png
+=> assets/ES/btn_favorite_off_press.png
+=> assets/ES/btn_favorite_on_default.png
+=> assets/ES/btn_favorite_on_press.png
+=> assets/ES/btn_resolve_close_default.png
+=> assets/ES/btn_resolve_close_press.png
+=> assets/ES/btn_resolve_open_default.png
+=> assets/ES/btn_resolve_open_press.png
+=> assets/ES/minus_default.png
+=> assets/ES/numberbg.png
+=> assets/ES/plus_default.png
+=> assets/ES/sign_halfthewrong.png
+=> assets/ES/sign_right.png
+=> assets/ES/sign_wrong.png
+=> assets/TW/ans_close.pic
+=> assets/TW/ans_open.pic
+=> assets/button/bg1.jpg
+=> assets/button/bg10.jpg
+=> assets/button/bg11.jpg
+=> assets/button/bg12.jpg
+=> assets/button/bg13.jpg
+=> assets/button/bg16.jpg
+=> assets/button/bg17.jpg
+=> assets/button/bg18.jpg
+=> assets/button/bg19.jpg
+=> assets/button/bg2.jpg
+=> assets/button/bg20.jpg
+=> assets/button/bg21.jpg
+=> assets/button/bg22.jpg
+=> assets/button/bg23.jpg
+=> assets/button/bg24.jpg
+=> assets/button/bg25.jpg
+=> assets/button/bg26.jpg
+=> assets/button/bg27.jpg
+=> assets/button/bg28.jpg
+=> assets/button/bg29.jpg
+=> assets/button/bg3.jpg
+=> assets/button/bg30.jpg
+=> assets/button/bg31.jpg
+=> assets/button/bg32.jpg
+=> assets/button/bg33.jpg
+=> assets/button/bg34.jpg
+=> assets/button/bg35.jpg
+=> assets/button/bg36.jpg
+=> assets/button/bg37.jpg
+=> assets/button/bg38.jpg
+=> assets/button/bg39.jpg
+=> assets/button/bg40.jpg
+=> assets/button/bg41.jpg
+=> assets/button/bg42.jpg
+=> assets/button/bg43.jpg
+=> assets/button/bg44.jpg
+=> assets/button/bg45.jpg
+=> assets/button/bg46.jpg
+=> assets/button/bg47.jpg
+=> assets/button/bg48.jpg
+=> assets/button/bg49.jpg
+=> assets/button/bg50.jpg
+=> assets/button/bg7.jpg
+=> assets/button/delete.gif
+=> assets/button/favorite.gif
+=> assets/button/help.gif
+=> assets/button/ok.gif
+=> assets/button/register.gif
+=> assets/button/reset.gif
+=> assets/button/submit1.gif
+=> assets/button/submit2.gif
+=> assets/button/submit3.gif
+=> assets/test_data/BXC2007026_20121129094822643_15_1.html
+=> assets/test_data/BXC2007026_20121129094822643_16_1.html
+=> assets/test_data/BXC2007026_20121129094822643_17_1.html
+=> assets/test_data/BXC2007026_20121129094822643_18_1.html
+=> assets/test_data/BXC2007026_20121129094822643_19_1.html
+=> assets/test_data/BXC2007026_20121129094822643_20_1.html
+=> assets/test_data/js_math_test.html
+=> assets/1.png
+=> assets/2.png
+=> assets/2test_webview.html
+=> assets/3.png
+=> assets/a_right_ex.pic
+=> assets/a_select_ex.pic
+=> assets/a_wrong_ex.pic
+=> assets/ans.pic
+=> assets/ans_close.pic
+=> assets/ans_open.pic
+=> assets/b_right_ex.pic
+=> assets/b_select_ex.pic
+=> assets/b_wrong_ex.pic
+=> assets/button.css
+=> assets/c_right_ex.pic
+=> assets/c_select_ex.pic
+=> assets/c_wrong_ex.pic
+=> assets/d_right_ex.pic
+=> assets/d_select_ex.pic
+=> assets/d_wrong_ex.pic
+=> assets/e_right_ex.pic
+=> assets/e_select_ex.pic
+=> assets/e_wrong_ex.pic
+=> assets/f_right_ex.pic
+=> assets/f_select_ex.pic
+=> assets/f_wrong_ex.pic
+=> assets/kpexercise.js
+=> assets/kpexercise.js.bak
+=> assets/link.pic
+=> assets/list.css
+=> assets/realans.pic
+=> assets/test.html
+=> assets/test_2.html
+=> assets/test_webview.html
+=> res/anim/era_popwindow_in.xml
+=> res/anim/era_popwindow_out.xml
+=> res/anim/popwindow_in.xml
+=> res/anim/popwindow_out.xml
+=> res/drawable/btn_analysis.xml
+=> res/drawable/btn_calculator.xml
+=> res/drawable/btn_hycd.xml
+=> res/drawable/btn_menu_select.xml
+=> res/drawable/btn_njgj.xml
+=> res/drawable/btn_scb.xml
+=> res/drawable/btn_scbsave.xml
+=> res/drawable/btn_spjf.xml
+=> res/drawable/btn_submit.xml
+=> res/drawable/btn_tbjf.xml
+=> res/drawable/btn_tblx.xml
+=> res/drawable/btn_xhgf.xml
+=> res/drawable/btn_xxbj.xml
+=> res/drawable/btn_xxbjdetail.xml
+=> res/drawable/btn_yearstable.xml
+=> res/drawable/btn_yhcd.xml
+=> res/drawable/btn_yszqb.xml
+=> res/drawable/chose_morlist.xml
+=> res/drawable/dilog_background.xml
+=> res/drawable/exit_button_down.xml
+=> res/drawable/exit_button_up.xml
+=> res/drawable/layout_xml.xml
+=> res/drawable/layout_xml2.xml
+=> res/drawable/other_graphic_main_dlg.xml
+=> res/drawable/other_graphic_wnd.xml
+=> res/drawable/save_data_loading_dlg.xml
+=> res/drawable/savedata_morlist.xml
+=> res/drawable/testpaper.xml
+=> res/drawable/view_yuan_morelist.xml
+=> res/drawable/writepaper.xml
+=> res/layout/blg_score_count.xml
+=> res/layout/drag_pic_view.xml
+=> res/layout/eraser_window.xml
+=> res/layout/exercise.xml
+=> res/layout/exitsaveloading.xml
+=> res/layout/first_activity.xml
+=> res/layout/fullscreen_loading_indicator.xml
+=> res/layout/listtext.xml
+=> res/layout/main.xml
+=> res/layout/mysavewindow.xml
+=> res/layout/other_graphic_list.xml
+=> res/layout/other_graphic_loading_list.xml
+=> res/layout/other_graphic_window.xml
+=> res/layout/other_graphic_window2.xml
+=> res/layout/popuplist.xml
+=> res/layout/test_bg.xml
+=> AndroidManifest.xml
+=> resources.arsc
+=> res/drawable-hdpi/baopen_default.png
+=> res/drawable-hdpi/baopen_disabled.png
+=> res/drawable-hdpi/baopen_press.png
+=> res/drawable-hdpi/bg.9.png
+=> res/drawable-hdpi/bg_h_.9.png
+=> res/drawable-hdpi/bg_h_drawarea.9.png
+=> res/drawable-hdpi/bg_h_titlebar.9.png
+=> res/drawable-hdpi/bg_v_.9.png
+=> res/drawable-hdpi/bg_v_drawarea.9.png
+=> res/drawable-hdpi/bg_v_titlebar.9.png
+=> res/drawable-hdpi/btn1_default.9.png
+=> res/drawable-hdpi/btn1_press.9.png
+=> res/drawable-hdpi/btn3_default.9.png
+=> res/drawable-hdpi/btn3_press.9.png
+=> res/drawable-hdpi/btn_close_default.png
+=> res/drawable-hdpi/btn_close_press.png
+=> res/drawable-hdpi/btn_tool_default.png
+=> res/drawable-hdpi/btn_tool_press.png
+=> res/drawable-hdpi/clearall.xml
+=> res/drawable-hdpi/clearall_dn.png
+=> res/drawable-hdpi/clearall_up.png
+=> res/drawable-hdpi/close.xml
+=> res/drawable-hdpi/close_dn.png
+=> res/drawable-hdpi/close_up.png
+=> res/drawable-hdpi/controlbar_bg.png
+=> res/drawable-hdpi/controlbar_full.png
+=> res/drawable-hdpi/controlhand.png
+=> res/drawable-hdpi/delete_default.png
+=> res/drawable-hdpi/delete_disabled.png
+=> res/drawable-hdpi/delete_press.png
+=> res/drawable-hdpi/downloadflh.png
+=> res/drawable-hdpi/downloading.png
+=> res/drawable-hdpi/eraser_default.png
+=> res/drawable-hdpi/eraser_disabled.png
+=> res/drawable-hdpi/eraser_press.png
+=> res/drawable-hdpi/eraserbg.png
+=> res/drawable-hdpi/ex_area.9.png
+=> res/drawable-hdpi/ex_titlebar.9.png
+=> res/drawable-hdpi/exbackground.9.png
+=> res/drawable-hdpi/exbackground_v.9.png
+=> res/drawable-hdpi/exmainarea.9.png
+=> res/drawable-hdpi/first_bg.png
+=> res/drawable-hdpi/geometry.png
+=> res/drawable-hdpi/geometry_disabled.png
+=> res/drawable-hdpi/hori_scrollbar_end.png
+=> res/drawable-hdpi/hori_scrollbar_head.png
+=> res/drawable-hdpi/hori_scrollbar_middle.png
+=> res/drawable-hdpi/ic_action_search.png
+=> res/drawable-hdpi/ic_launcher.png
+=> res/drawable-hdpi/ic_menu_compose.png
+=> res/drawable-hdpi/icon.png
+=> res/drawable-hdpi/icon_calculator_default.png
+=> res/drawable-hdpi/icon_calculator_press.png
+=> res/drawable-hdpi/icon_hycd_default.png
+=> res/drawable-hdpi/icon_hycd_press.png
+=> res/drawable-hdpi/icon_njgj_default.png
+=> res/drawable-hdpi/icon_njgj_press.png
+=> res/drawable-hdpi/icon_scb_default.png
+=> res/drawable-hdpi/icon_scb_press.png
+=> res/drawable-hdpi/icon_scbsave_default.png
+=> res/drawable-hdpi/icon_scbsave_press.png
+=> res/drawable-hdpi/icon_spjf_default.png
+=> res/drawable-hdpi/icon_spjf_press.png
+=> res/drawable-hdpi/icon_tbjf_default.png
+=> res/drawable-hdpi/icon_tbjf_press.png
+=> res/drawable-hdpi/icon_tblx_default.png
+=> res/drawable-hdpi/icon_tblx_press.png
+=> res/drawable-hdpi/icon_xhgf_default.png
+=> res/drawable-hdpi/icon_xhgf_press.png
+=> res/drawable-hdpi/icon_xxbj_default.png
+=> res/drawable-hdpi/icon_xxbj_press.png
+=> res/drawable-hdpi/icon_xxbjdetail_default.png
+=> res/drawable-hdpi/icon_xxbjdetail_press.png
+=> res/drawable-hdpi/icon_yearstable_default.png
+=> res/drawable-hdpi/icon_yearstable_press.png
+=> res/drawable-hdpi/icon_yhcd_default.png
+=> res/drawable-hdpi/icon_yhcd_press.png
+=> res/drawable-hdpi/icon_yszqb_default.png
+=> res/drawable-hdpi/icon_yszqb_press.png
+=> res/drawable-hdpi/line_default.png
+=> res/drawable-hdpi/line_disabled.png
+=> res/drawable-hdpi/line_press.png
+=> res/drawable-hdpi/menu_on_default1.9.png
+=> res/drawable-hdpi/menu_on_press1.9.png
+=> res/drawable-hdpi/menuclose.png
+=> res/drawable-hdpi/menuopen.png
+=> res/drawable-hdpi/midlle_scroll.png
+=> res/drawable-hdpi/move_hand.png
+=> res/drawable-hdpi/no_0.png
+=> res/drawable-hdpi/no_1.png
+=> res/drawable-hdpi/no_2.png
+=> res/drawable-hdpi/no_3.png
+=> res/drawable-hdpi/no_4.png
+=> res/drawable-hdpi/no_5.png
+=> res/drawable-hdpi/no_6.png
+=> res/drawable-hdpi/no_7.png
+=> res/drawable-hdpi/no_8.png
+=> res/drawable-hdpi/no_9.png
+=> res/drawable-hdpi/no_fen.png
+=> res/drawable-hdpi/numberbg.png
+=> res/drawable-hdpi/oval_default.png
+=> res/drawable-hdpi/oval_disabled.png
+=> res/drawable-hdpi/oval_press.png
+=> res/drawable-hdpi/pen_default.png
+=> res/drawable-hdpi/pen_disabled.png
+=> res/drawable-hdpi/pen_press.png
+=> res/drawable-hdpi/rectangle_default.png
+=> res/drawable-hdpi/rectangle_disabled.png
+=> res/drawable-hdpi/rectangle_press.png
+=> res/drawable-hdpi/save.png
+=> res/drawable-hdpi/save_disabled.png
+=> res/drawable-hdpi/score_btnarea.9.png
+=> res/drawable-hdpi/score_fractionarea.9.png
+=> res/drawable-hdpi/score_titlebar.9.png
+=> res/drawable-hdpi/search.png
+=> res/drawable-hdpi/search_pressed.png
+=> res/drawable-hdpi/seekbar_style.xml
+=> res/drawable-hdpi/tab_h_default.9.png
+=> res/drawable-hdpi/tab_h_press.9.png
+=> res/drawable-hdpi/tab_v_default.9.png
+=> res/drawable-hdpi/tab_v_press.9.png
+=> res/drawable-hdpi/tools_default.png
+=> res/drawable-hdpi/tools_disabled.png
+=> res/drawable-hdpi/triangle_default.png
+=> res/drawable-hdpi/triangle_disabled.png
+=> res/drawable-hdpi/triangle_press.png
+=> res/drawable-hdpi/undo_default.png
+=> res/drawable-hdpi/undo_disabled.png
+=> res/drawable-hdpi/undo_press.png
+=> res/drawable-hdpi/updateflh.png
+=> res/drawable-hdpi/ver_scrollbar_end.png
+=> res/drawable-hdpi/ver_scrollbar_head.png
+=> res/drawable-hdpi/ver_scrollbar_middle.png
+=> res/drawable-ldpi/btn1_default.9.png
+=> res/drawable-ldpi/btn1_press.9.png
+=> res/drawable-ldpi/btn3_default.9.png
+=> res/drawable-ldpi/btn3_press.9.png
+=> res/drawable-ldpi/ex_area.9.png
+=> res/drawable-ldpi/ex_titlebar.9.png
+=> res/drawable-ldpi/ic_action_search.png
+=> res/drawable-ldpi/ic_launcher.png
+=> res/drawable-ldpi/icon.png
+=> res/drawable-ldpi/icon_calculator_default.png
+=> res/drawable-ldpi/icon_calculator_press.png
+=> res/drawable-ldpi/icon_hycd_default.png
+=> res/drawable-ldpi/icon_hycd_press.png
+=> res/drawable-ldpi/icon_njgj_default.png
+=> res/drawable-ldpi/icon_njgj_press.png
+=> res/drawable-ldpi/icon_scb_default.png
+=> res/drawable-ldpi/icon_scb_press.png
+=> res/drawable-ldpi/icon_scbsave_default.png
+=> res/drawable-ldpi/icon_scbsave_press.png
+=> res/drawable-ldpi/icon_spjf_default.png
+=> res/drawable-ldpi/icon_spjf_press.png
+=> res/drawable-ldpi/icon_tbjf_default.png
+=> res/drawable-ldpi/icon_tbjf_press.png
+=> res/drawable-ldpi/icon_tblx_default.png
+=> res/drawable-ldpi/icon_tblx_press.png
+=> res/drawable-ldpi/icon_xhgf_default.png
+=> res/drawable-ldpi/icon_xhgf_press.png
+=> res/drawable-ldpi/icon_xxbj_default.png
+=> res/drawable-ldpi/icon_xxbj_press.png
+=> res/drawable-ldpi/icon_xxbjdetail_default.png
+=> res/drawable-ldpi/icon_xxbjdetail_press.png
+=> res/drawable-ldpi/icon_yearstable_default.png
+=> res/drawable-ldpi/icon_yearstable_press.png
+=> res/drawable-ldpi/icon_yhcd_default.png
+=> res/drawable-ldpi/icon_yhcd_press.png
+=> res/drawable-ldpi/icon_yszqb_default.png
+=> res/drawable-ldpi/icon_yszqb_press.png
+=> res/drawable-ldpi/menu_on_default1.9.png
+=> res/drawable-ldpi/menu_on_press1.9.png
+=> res/drawable-ldpi/no_0.png
+=> res/drawable-ldpi/no_1.png
+=> res/drawable-ldpi/no_2.png
+=> res/drawable-ldpi/no_3.png
+=> res/drawable-ldpi/no_4.png
+=> res/drawable-ldpi/no_5.png
+=> res/drawable-ldpi/no_6.png
+=> res/drawable-ldpi/no_7.png
+=> res/drawable-ldpi/no_8.png
+=> res/drawable-ldpi/no_9.png
+=> res/drawable-ldpi/no_fen.png
+=> res/drawable-ldpi/score_btnarea.9.png
+=> res/drawable-ldpi/score_fractionarea.9.png
+=> res/drawable-ldpi/score_titlebar.9.png
+=> res/drawable-ldpi/search.png
+=> res/drawable-ldpi/search_pressed.png
+=> res/drawable-mdpi/btn1_default.9.png
+=> res/drawable-mdpi/btn1_press.9.png
+=> res/drawable-mdpi/btn3_default.9.png
+=> res/drawable-mdpi/btn3_press.9.png
+=> res/drawable-mdpi/corner_dg.xml
+=> res/drawable-mdpi/ex_area.9.png
+=> res/drawable-mdpi/ex_titlebar.9.png
+=> res/drawable-mdpi/ic_action_search.png
+=> res/drawable-mdpi/ic_launcher.png
+=> res/drawable-mdpi/icon.png
+=> res/drawable-mdpi/icon_calculator_default.png
+=> res/drawable-mdpi/icon_calculator_press.png
+=> res/drawable-mdpi/icon_hycd_default.png
+=> res/drawable-mdpi/icon_hycd_press.png
+=> res/drawable-mdpi/icon_njgj_default.png
+=> res/drawable-mdpi/icon_njgj_press.png
+=> res/drawable-mdpi/icon_scb_default.png
+=> res/drawable-mdpi/icon_scb_press.png
+=> res/drawable-mdpi/icon_scbsave_default.png
+=> res/drawable-mdpi/icon_scbsave_press.png
+=> res/drawable-mdpi/icon_spjf_default.png
+=> res/drawable-mdpi/icon_spjf_press.png
+=> res/drawable-mdpi/icon_tbjf_default.png
+=> res/drawable-mdpi/icon_tbjf_press.png
+=> res/drawable-mdpi/icon_tblx_default.png
+=> res/drawable-mdpi/icon_tblx_press.png
+=> res/drawable-mdpi/icon_xhgf_default.png
+=> res/drawable-mdpi/icon_xhgf_press.png
+=> res/drawable-mdpi/icon_xxbj_default.png
+=> res/drawable-mdpi/icon_xxbj_press.png
+=> res/drawable-mdpi/icon_xxbjdetail_default.png
+=> res/drawable-mdpi/icon_xxbjdetail_press.png
+=> res/drawable-mdpi/icon_yearstable_default.png
+=> res/drawable-mdpi/icon_yearstable_press.png
+=> res/drawable-mdpi/icon_yhcd_default.png
+=> res/drawable-mdpi/icon_yhcd_press.png
+=> res/drawable-mdpi/icon_yszqb_default.png
+=> res/drawable-mdpi/icon_yszqb_press.png
+=> res/drawable-mdpi/menu_on_default1.9.png
+=> res/drawable-mdpi/menu_on_press1.9.png
+=> res/drawable-mdpi/no_0.png
+=> res/drawable-mdpi/no_1.png
+=> res/drawable-mdpi/no_2.png
+=> res/drawable-mdpi/no_3.png
+=> res/drawable-mdpi/no_4.png
+=> res/drawable-mdpi/no_5.png
+=> res/drawable-mdpi/no_6.png
+=> res/drawable-mdpi/no_7.png
+=> res/drawable-mdpi/no_8.png
+=> res/drawable-mdpi/no_9.png
+=> res/drawable-mdpi/no_fen.png
+=> res/drawable-mdpi/score_btnarea.9.png
+=> res/drawable-mdpi/score_fractionarea.9.png
+=> res/drawable-mdpi/score_titlebar.9.png
+=> res/drawable-mdpi/search.png
+=> res/drawable-mdpi/search_pressed.png
+=> res/drawable-nodpi/tabfont_dtz_h_default.png
+=> res/drawable-nodpi/tabfont_dtz_h_press.png
+=> res/drawable-nodpi/tabfont_dtz_v_default.png
+=> res/drawable-nodpi/tabfont_dtz_v_press.png
+=> res/drawable-nodpi/tabfont_ysz_h_default.png
+=> res/drawable-nodpi/tabfont_ysz_h_press.png
+=> res/drawable-nodpi/tabfont_ysz_v_default.png
+=> res/drawable-nodpi/tabfont_ysz_v_press.png
+=> res/layout-xlarge/eraser_window.xml
+=> res/layout-xlarge/exitsaveloading.xml
+=> res/layout-xlarge/first_activity.xml
+=> res/layout-xlarge/fullscreen_loading_indicator.xml
+=> res/layout-xlarge/listtext.xml
+=> res/layout-xlarge/mysavewindow.xml
+=> res/layout-xlarge/other_graphic_window.xml
+=> res/layout-xlarge/popuplist.xml
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\bin\classes.dex => classes.dex
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\libs\annotations.jar:
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\libs\besta.android.drm.jar:
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\libs\besta.android.framework.jar:
+G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\libs\WriteAndReadText.jar:
+Native folder: G:\no_eclipse_build\Projects\Command_ExerciseSystem\ExerciseSystem\libs
+ 
+signed that unsigner apk file to make a *.apk file... 
+   adding: META-INF/MANIFEST.MF
+   adding: META-INF/EXERCISE.SF
+   adding: META-INF/EXERCISE.RSA
+  signing: assets/CN/ans_close.pic
+  signing: assets/CN/ans_open.pic
+  signing: assets/ES/btn_calculuspaper_default.png
+  signing: assets/ES/btn_calculuspaper_press.png
+  signing: assets/ES/btn_favorite_off_default.png
+  signing: assets/ES/btn_favorite_off_press.png
+  signing: assets/ES/btn_favorite_on_default.png
+  signing: assets/ES/btn_favorite_on_press.png
+  signing: assets/ES/btn_resolve_close_default.png
+  signing: assets/ES/btn_resolve_close_press.png
+  signing: assets/ES/btn_resolve_open_default.png
+  signing: assets/ES/btn_resolve_open_press.png
+  signing: assets/ES/minus_default.png
+  signing: assets/ES/numberbg.png
+  signing: assets/ES/plus_default.png
+  signing: assets/ES/sign_halfthewrong.png
+  signing: assets/ES/sign_right.png
+  signing: assets/ES/sign_wrong.png
+  signing: assets/TW/ans_close.pic
+  signing: assets/TW/ans_open.pic
+  signing: assets/button/bg1.jpg
+  signing: assets/button/bg10.jpg
+  signing: assets/button/bg11.jpg
+  signing: assets/button/bg12.jpg
+  signing: assets/button/bg13.jpg
+  signing: assets/button/bg16.jpg
+  signing: assets/button/bg17.jpg
+  signing: assets/button/bg18.jpg
+  signing: assets/button/bg19.jpg
+  signing: assets/button/bg2.jpg
+  signing: assets/button/bg20.jpg
+  signing: assets/button/bg21.jpg
+  signing: assets/button/bg22.jpg
+  signing: assets/button/bg23.jpg
+  signing: assets/button/bg24.jpg
+  signing: assets/button/bg25.jpg
+  signing: assets/button/bg26.jpg
+  signing: assets/button/bg27.jpg
+  signing: assets/button/bg28.jpg
+  signing: assets/button/bg29.jpg
+  signing: assets/button/bg3.jpg
+  signing: assets/button/bg30.jpg
+  signing: assets/button/bg31.jpg
+  signing: assets/button/bg32.jpg
+  signing: assets/button/bg33.jpg
+  signing: assets/button/bg34.jpg
+  signing: assets/button/bg35.jpg
+  signing: assets/button/bg36.jpg
+  signing: assets/button/bg37.jpg
+  signing: assets/button/bg38.jpg
+  signing: assets/button/bg39.jpg
+  signing: assets/button/bg40.jpg
+  signing: assets/button/bg41.jpg
+  signing: assets/button/bg42.jpg
+  signing: assets/button/bg43.jpg
+  signing: assets/button/bg44.jpg
+  signing: assets/button/bg45.jpg
+  signing: assets/button/bg46.jpg
+  signing: assets/button/bg47.jpg
+  signing: assets/button/bg48.jpg
+  signing: assets/button/bg49.jpg
+  signing: assets/button/bg50.jpg
+  signing: assets/button/bg7.jpg
+  signing: assets/button/delete.gif
+  signing: assets/button/favorite.gif
+  signing: assets/button/help.gif
+  signing: assets/button/ok.gif
+  signing: assets/button/register.gif
+  signing: assets/button/reset.gif
+  signing: assets/button/submit1.gif
+  signing: assets/button/submit2.gif
+  signing: assets/button/submit3.gif
+  signing: assets/test_data/BXC2007026_20121129094822643_15_1.html
+  signing: assets/test_data/BXC2007026_20121129094822643_16_1.html
+  signing: assets/test_data/BXC2007026_20121129094822643_17_1.html
+  signing: assets/test_data/BXC2007026_20121129094822643_18_1.html
+  signing: assets/test_data/BXC2007026_20121129094822643_19_1.html
+  signing: assets/test_data/BXC2007026_20121129094822643_20_1.html
+  signing: assets/test_data/js_math_test.html
+  signing: assets/1.png
+  signing: assets/2.png
+  signing: assets/2test_webview.html
+  signing: assets/3.png
+  signing: assets/a_right_ex.pic
+  signing: assets/a_select_ex.pic
+  signing: assets/a_wrong_ex.pic
+  signing: assets/ans.pic
+  signing: assets/ans_close.pic
+  signing: assets/ans_open.pic
+  signing: assets/b_right_ex.pic
+  signing: assets/b_select_ex.pic
+  signing: assets/b_wrong_ex.pic
+  signing: assets/button.css
+  signing: assets/c_right_ex.pic
+  signing: assets/c_select_ex.pic
+  signing: assets/c_wrong_ex.pic
+  signing: assets/d_right_ex.pic
+  signing: assets/d_select_ex.pic
+  signing: assets/d_wrong_ex.pic
+  signing: assets/e_right_ex.pic
+  signing: assets/e_select_ex.pic
+  signing: assets/e_wrong_ex.pic
+  signing: assets/f_right_ex.pic
+  signing: assets/f_select_ex.pic
+  signing: assets/f_wrong_ex.pic
+  signing: assets/kpexercise.js
+  signing: assets/kpexercise.js.bak
+  signing: assets/link.pic
+  signing: assets/list.css
+  signing: assets/realans.pic
+  signing: assets/test.html
+  signing: assets/test_2.html
+  signing: assets/test_webview.html
+  signing: res/anim/era_popwindow_in.xml
+  signing: res/anim/era_popwindow_out.xml
+  signing: res/anim/popwindow_in.xml
+  signing: res/anim/popwindow_out.xml
+  signing: res/drawable/btn_analysis.xml
+  signing: res/drawable/btn_calculator.xml
+  signing: res/drawable/btn_hycd.xml
+  signing: res/drawable/btn_menu_select.xml
+  signing: res/drawable/btn_njgj.xml
+  signing: res/drawable/btn_scb.xml
+  signing: res/drawable/btn_scbsave.xml
+  signing: res/drawable/btn_spjf.xml
+  signing: res/drawable/btn_submit.xml
+  signing: res/drawable/btn_tbjf.xml
+  signing: res/drawable/btn_tblx.xml
+  signing: res/drawable/btn_xhgf.xml
+  signing: res/drawable/btn_xxbj.xml
+  signing: res/drawable/btn_xxbjdetail.xml
+  signing: res/drawable/btn_yearstable.xml
+  signing: res/drawable/btn_yhcd.xml
+  signing: res/drawable/btn_yszqb.xml
+  signing: res/drawable/chose_morlist.xml
+  signing: res/drawable/dilog_background.xml
+  signing: res/drawable/exit_button_down.xml
+  signing: res/drawable/exit_button_up.xml
+  signing: res/drawable/layout_xml.xml
+  signing: res/drawable/layout_xml2.xml
+  signing: res/drawable/other_graphic_main_dlg.xml
+  signing: res/drawable/other_graphic_wnd.xml
+  signing: res/drawable/save_data_loading_dlg.xml
+  signing: res/drawable/savedata_morlist.xml
+  signing: res/drawable/testpaper.xml
+  signing: res/drawable/view_yuan_morelist.xml
+  signing: res/drawable/writepaper.xml
+  signing: res/layout/blg_score_count.xml
+  signing: res/layout/drag_pic_view.xml
+  signing: res/layout/eraser_window.xml
+  signing: res/layout/exercise.xml
+  signing: res/layout/exitsaveloading.xml
+  signing: res/layout/first_activity.xml
+  signing: res/layout/fullscreen_loading_indicator.xml
+  signing: res/layout/listtext.xml
+  signing: res/layout/main.xml
+  signing: res/layout/mysavewindow.xml
+  signing: res/layout/other_graphic_list.xml
+  signing: res/layout/other_graphic_loading_list.xml
+  signing: res/layout/other_graphic_window.xml
+  signing: res/layout/other_graphic_window2.xml
+  signing: res/layout/popuplist.xml
+  signing: res/layout/test_bg.xml
+  signing: AndroidManifest.xml
+  signing: resources.arsc
+  signing: res/drawable-hdpi/baopen_default.png
+  signing: res/drawable-hdpi/baopen_disabled.png
+  signing: res/drawable-hdpi/baopen_press.png
+  signing: res/drawable-hdpi/bg.9.png
+  signing: res/drawable-hdpi/bg_h_.9.png
+  signing: res/drawable-hdpi/bg_h_drawarea.9.png
+  signing: res/drawable-hdpi/bg_h_titlebar.9.png
+  signing: res/drawable-hdpi/bg_v_.9.png
+  signing: res/drawable-hdpi/bg_v_drawarea.9.png
+  signing: res/drawable-hdpi/bg_v_titlebar.9.png
+  signing: res/drawable-hdpi/btn1_default.9.png
+  signing: res/drawable-hdpi/btn1_press.9.png
+  signing: res/drawable-hdpi/btn3_default.9.png
+  signing: res/drawable-hdpi/btn3_press.9.png
+  signing: res/drawable-hdpi/btn_close_default.png
+  signing: res/drawable-hdpi/btn_close_press.png
+  signing: res/drawable-hdpi/btn_tool_default.png
+  signing: res/drawable-hdpi/btn_tool_press.png
+  signing: res/drawable-hdpi/clearall.xml
+  signing: res/drawable-hdpi/clearall_dn.png
+  signing: res/drawable-hdpi/clearall_up.png
+  signing: res/drawable-hdpi/close.xml
+  signing: res/drawable-hdpi/close_dn.png
+  signing: res/drawable-hdpi/close_up.png
+  signing: res/drawable-hdpi/controlbar_bg.png
+  signing: res/drawable-hdpi/controlbar_full.png
+  signing: res/drawable-hdpi/controlhand.png
+  signing: res/drawable-hdpi/delete_default.png
+  signing: res/drawable-hdpi/delete_disabled.png
+  signing: res/drawable-hdpi/delete_press.png
+  signing: res/drawable-hdpi/downloadflh.png
+  signing: res/drawable-hdpi/downloading.png
+  signing: res/drawable-hdpi/eraser_default.png
+  signing: res/drawable-hdpi/eraser_disabled.png
+  signing: res/drawable-hdpi/eraser_press.png
+  signing: res/drawable-hdpi/eraserbg.png
+  signing: res/drawable-hdpi/ex_area.9.png
+  signing: res/drawable-hdpi/ex_titlebar.9.png
+  signing: res/drawable-hdpi/exbackground.9.png
+  signing: res/drawable-hdpi/exbackground_v.9.png
+  signing: res/drawable-hdpi/exmainarea.9.png
+  signing: res/drawable-hdpi/first_bg.png
+  signing: res/drawable-hdpi/geometry.png
+  signing: res/drawable-hdpi/geometry_disabled.png
+  signing: res/drawable-hdpi/hori_scrollbar_end.png
+  signing: res/drawable-hdpi/hori_scrollbar_head.png
+  signing: res/drawable-hdpi/hori_scrollbar_middle.png
+  signing: res/drawable-hdpi/ic_action_search.png
+  signing: res/drawable-hdpi/ic_launcher.png
+  signing: res/drawable-hdpi/ic_menu_compose.png
+  signing: res/drawable-hdpi/icon.png
+  signing: res/drawable-hdpi/icon_calculator_default.png
+  signing: res/drawable-hdpi/icon_calculator_press.png
+  signing: res/drawable-hdpi/icon_hycd_default.png
+  signing: res/drawable-hdpi/icon_hycd_press.png
+  signing: res/drawable-hdpi/icon_njgj_default.png
+  signing: res/drawable-hdpi/icon_njgj_press.png
+  signing: res/drawable-hdpi/icon_scb_default.png
+  signing: res/drawable-hdpi/icon_scb_press.png
+  signing: res/drawable-hdpi/icon_scbsave_default.png
+  signing: res/drawable-hdpi/icon_scbsave_press.png
+  signing: res/drawable-hdpi/icon_spjf_default.png
+  signing: res/drawable-hdpi/icon_spjf_press.png
+  signing: res/drawable-hdpi/icon_tbjf_default.png
+  signing: res/drawable-hdpi/icon_tbjf_press.png
+  signing: res/drawable-hdpi/icon_tblx_default.png
+  signing: res/drawable-hdpi/icon_tblx_press.png
+  signing: res/drawable-hdpi/icon_xhgf_default.png
+  signing: res/drawable-hdpi/icon_xhgf_press.png
+  signing: res/drawable-hdpi/icon_xxbj_default.png
+  signing: res/drawable-hdpi/icon_xxbj_press.png
+  signing: res/drawable-hdpi/icon_xxbjdetail_default.png
+  signing: res/drawable-hdpi/icon_xxbjdetail_press.png
+  signing: res/drawable-hdpi/icon_yearstable_default.png
+  signing: res/drawable-hdpi/icon_yearstable_press.png
+  signing: res/drawable-hdpi/icon_yhcd_default.png
+  signing: res/drawable-hdpi/icon_yhcd_press.png
+  signing: res/drawable-hdpi/icon_yszqb_default.png
+  signing: res/drawable-hdpi/icon_yszqb_press.png
+  signing: res/drawable-hdpi/line_default.png
+  signing: res/drawable-hdpi/line_disabled.png
+  signing: res/drawable-hdpi/line_press.png
+  signing: res/drawable-hdpi/menu_on_default1.9.png
+  signing: res/drawable-hdpi/menu_on_press1.9.png
+  signing: res/drawable-hdpi/menuclose.png
+  signing: res/drawable-hdpi/menuopen.png
+  signing: res/drawable-hdpi/midlle_scroll.png
+  signing: res/drawable-hdpi/move_hand.png
+  signing: res/drawable-hdpi/no_0.png
+  signing: res/drawable-hdpi/no_1.png
+  signing: res/drawable-hdpi/no_2.png
+  signing: res/drawable-hdpi/no_3.png
+  signing: res/drawable-hdpi/no_4.png
+  signing: res/drawable-hdpi/no_5.png
+  signing: res/drawable-hdpi/no_6.png
+  signing: res/drawable-hdpi/no_7.png
+  signing: res/drawable-hdpi/no_8.png
+  signing: res/drawable-hdpi/no_9.png
+  signing: res/drawable-hdpi/no_fen.png
+  signing: res/drawable-hdpi/numberbg.png
+  signing: res/drawable-hdpi/oval_default.png
+  signing: res/drawable-hdpi/oval_disabled.png
+  signing: res/drawable-hdpi/oval_press.png
+  signing: res/drawable-hdpi/pen_default.png
+  signing: res/drawable-hdpi/pen_disabled.png
+  signing: res/drawable-hdpi/pen_press.png
+  signing: res/drawable-hdpi/rectangle_default.png
+  signing: res/drawable-hdpi/rectangle_disabled.png
+  signing: res/drawable-hdpi/rectangle_press.png
+  signing: res/drawable-hdpi/save.png
+  signing: res/drawable-hdpi/save_disabled.png
+  signing: res/drawable-hdpi/score_btnarea.9.png
+  signing: res/drawable-hdpi/score_fractionarea.9.png
+  signing: res/drawable-hdpi/score_titlebar.9.png
+  signing: res/drawable-hdpi/search.png
+  signing: res/drawable-hdpi/search_pressed.png
+  signing: res/drawable-hdpi/seekbar_style.xml
+  signing: res/drawable-hdpi/tab_h_default.9.png
+  signing: res/drawable-hdpi/tab_h_press.9.png
+  signing: res/drawable-hdpi/tab_v_default.9.png
+  signing: res/drawable-hdpi/tab_v_press.9.png
+  signing: res/drawable-hdpi/tools_default.png
+  signing: res/drawable-hdpi/tools_disabled.png
+  signing: res/drawable-hdpi/triangle_default.png
+  signing: res/drawable-hdpi/triangle_disabled.png
+  signing: res/drawable-hdpi/triangle_press.png
+  signing: res/drawable-hdpi/undo_default.png
+  signing: res/drawable-hdpi/undo_disabled.png
+  signing: res/drawable-hdpi/undo_press.png
+  signing: res/drawable-hdpi/updateflh.png
+  signing: res/drawable-hdpi/ver_scrollbar_end.png
+  signing: res/drawable-hdpi/ver_scrollbar_head.png
+  signing: res/drawable-hdpi/ver_scrollbar_middle.png
+  signing: res/drawable-ldpi/btn1_default.9.png
+  signing: res/drawable-ldpi/btn1_press.9.png
+  signing: res/drawable-ldpi/btn3_default.9.png
+  signing: res/drawable-ldpi/btn3_press.9.png
+  signing: res/drawable-ldpi/ex_area.9.png
+  signing: res/drawable-ldpi/ex_titlebar.9.png
+  signing: res/drawable-ldpi/ic_action_search.png
+  signing: res/drawable-ldpi/ic_launcher.png
+  signing: res/drawable-ldpi/icon.png
+  signing: res/drawable-ldpi/icon_calculator_default.png
+  signing: res/drawable-ldpi/icon_calculator_press.png
+  signing: res/drawable-ldpi/icon_hycd_default.png
+  signing: res/drawable-ldpi/icon_hycd_press.png
+  signing: res/drawable-ldpi/icon_njgj_default.png
+  signing: res/drawable-ldpi/icon_njgj_press.png
+  signing: res/drawable-ldpi/icon_scb_default.png
+  signing: res/drawable-ldpi/icon_scb_press.png
+  signing: res/drawable-ldpi/icon_scbsave_default.png
+  signing: res/drawable-ldpi/icon_scbsave_press.png
+  signing: res/drawable-ldpi/icon_spjf_default.png
+  signing: res/drawable-ldpi/icon_spjf_press.png
+  signing: res/drawable-ldpi/icon_tbjf_default.png
+  signing: res/drawable-ldpi/icon_tbjf_press.png
+  signing: res/drawable-ldpi/icon_tblx_default.png
+  signing: res/drawable-ldpi/icon_tblx_press.png
+  signing: res/drawable-ldpi/icon_xhgf_default.png
+  signing: res/drawable-ldpi/icon_xhgf_press.png
+  signing: res/drawable-ldpi/icon_xxbj_default.png
+  signing: res/drawable-ldpi/icon_xxbj_press.png
+  signing: res/drawable-ldpi/icon_xxbjdetail_default.png
+  signing: res/drawable-ldpi/icon_xxbjdetail_press.png
+  signing: res/drawable-ldpi/icon_yearstable_default.png
+  signing: res/drawable-ldpi/icon_yearstable_press.png
+  signing: res/drawable-ldpi/icon_yhcd_default.png
+  signing: res/drawable-ldpi/icon_yhcd_press.png
+  signing: res/drawable-ldpi/icon_yszqb_default.png
+  signing: res/drawable-ldpi/icon_yszqb_press.png
+  signing: res/drawable-ldpi/menu_on_default1.9.png
+  signing: res/drawable-ldpi/menu_on_press1.9.png
+  signing: res/drawable-ldpi/no_0.png
+  signing: res/drawable-ldpi/no_1.png
+  signing: res/drawable-ldpi/no_2.png
+  signing: res/drawable-ldpi/no_3.png
+  signing: res/drawable-ldpi/no_4.png
+  signing: res/drawable-ldpi/no_5.png
+  signing: res/drawable-ldpi/no_6.png
+  signing: res/drawable-ldpi/no_7.png
+  signing: res/drawable-ldpi/no_8.png
+  signing: res/drawable-ldpi/no_9.png
+  signing: res/drawable-ldpi/no_fen.png
+  signing: res/drawable-ldpi/score_btnarea.9.png
+  signing: res/drawable-ldpi/score_fractionarea.9.png
+  signing: res/drawable-ldpi/score_titlebar.9.png
+  signing: res/drawable-ldpi/search.png
+  signing: res/drawable-ldpi/search_pressed.png
+  signing: res/drawable-mdpi/btn1_default.9.png
+  signing: res/drawable-mdpi/btn1_press.9.png
+  signing: res/drawable-mdpi/btn3_default.9.png
+  signing: res/drawable-mdpi/btn3_press.9.png
+  signing: res/drawable-mdpi/corner_dg.xml
+  signing: res/drawable-mdpi/ex_area.9.png
+  signing: res/drawable-mdpi/ex_titlebar.9.png
+  signing: res/drawable-mdpi/ic_action_search.png
+  signing: res/drawable-mdpi/ic_launcher.png
+  signing: res/drawable-mdpi/icon.png
+  signing: res/drawable-mdpi/icon_calculator_default.png
+  signing: res/drawable-mdpi/icon_calculator_press.png
+  signing: res/drawable-mdpi/icon_hycd_default.png
+  signing: res/drawable-mdpi/icon_hycd_press.png
+  signing: res/drawable-mdpi/icon_njgj_default.png
+  signing: res/drawable-mdpi/icon_njgj_press.png
+  signing: res/drawable-mdpi/icon_scb_default.png
+  signing: res/drawable-mdpi/icon_scb_press.png
+  signing: res/drawable-mdpi/icon_scbsave_default.png
+  signing: res/drawable-mdpi/icon_scbsave_press.png
+  signing: res/drawable-mdpi/icon_spjf_default.png
+  signing: res/drawable-mdpi/icon_spjf_press.png
+  signing: res/drawable-mdpi/icon_tbjf_default.png
+  signing: res/drawable-mdpi/icon_tbjf_press.png
+  signing: res/drawable-mdpi/icon_tblx_default.png
+  signing: res/drawable-mdpi/icon_tblx_press.png
+  signing: res/drawable-mdpi/icon_xhgf_default.png
+  signing: res/drawable-mdpi/icon_xhgf_press.png
+  signing: res/drawable-mdpi/icon_xxbj_default.png
+  signing: res/drawable-mdpi/icon_xxbj_press.png
+  signing: res/drawable-mdpi/icon_xxbjdetail_default.png
+  signing: res/drawable-mdpi/icon_xxbjdetail_press.png
+  signing: res/drawable-mdpi/icon_yearstable_default.png
+  signing: res/drawable-mdpi/icon_yearstable_press.png
+  signing: res/drawable-mdpi/icon_yhcd_default.png
+  signing: res/drawable-mdpi/icon_yhcd_press.png
+  signing: res/drawable-mdpi/icon_yszqb_default.png
+  signing: res/drawable-mdpi/icon_yszqb_press.png
+  signing: res/drawable-mdpi/menu_on_default1.9.png
+  signing: res/drawable-mdpi/menu_on_press1.9.png
+  signing: res/drawable-mdpi/no_0.png
+  signing: res/drawable-mdpi/no_1.png
+  signing: res/drawable-mdpi/no_2.png
+  signing: res/drawable-mdpi/no_3.png
+  signing: res/drawable-mdpi/no_4.png
+  signing: res/drawable-mdpi/no_5.png
+  signing: res/drawable-mdpi/no_6.png
+  signing: res/drawable-mdpi/no_7.png
+  signing: res/drawable-mdpi/no_8.png
+  signing: res/drawable-mdpi/no_9.png
+  signing: res/drawable-mdpi/no_fen.png
+  signing: res/drawable-mdpi/score_btnarea.9.png
+  signing: res/drawable-mdpi/score_fractionarea.9.png
+  signing: res/drawable-mdpi/score_titlebar.9.png
+  signing: res/drawable-mdpi/search.png
+  signing: res/drawable-mdpi/search_pressed.png
+  signing: res/drawable-nodpi/tabfont_dtz_h_default.png
+  signing: res/drawable-nodpi/tabfont_dtz_h_press.png
+  signing: res/drawable-nodpi/tabfont_dtz_v_default.png
+  signing: res/drawable-nodpi/tabfont_dtz_v_press.png
+  signing: res/drawable-nodpi/tabfont_ysz_h_default.png
+  signing: res/drawable-nodpi/tabfont_ysz_h_press.png
+  signing: res/drawable-nodpi/tabfont_ysz_v_default.png
+  signing: res/drawable-nodpi/tabfont_ysz_v_press.png
+  signing: res/layout-xlarge/eraser_window.xml
+  signing: res/layout-xlarge/exitsaveloading.xml
+  signing: res/layout-xlarge/first_activity.xml
+  signing: res/layout-xlarge/fullscreen_loading_indicator.xml
+  signing: res/layout-xlarge/listtext.xml
+  signing: res/layout-xlarge/mysavewindow.xml
+  signing: res/layout-xlarge/other_graphic_window.xml
+  signing: res/layout-xlarge/popuplist.xml
+  signing: classes.dex
+ 
+Rebuild project Success! 
